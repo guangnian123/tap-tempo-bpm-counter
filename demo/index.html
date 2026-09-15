@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tap Tempo BPM Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p class="eyebrow">TAP TEMPO</p>
+    <h1>Find the tempo by tapping</h1>
+    <p>Tap the button or press the Space bar in time with the music.</p>
+    <section class="card" aria-live="polite">
+      <div class="result"><strong id="bpm">—</strong><span>BPM</span></div>
+      <p id="count">0 taps</p>
+      <button id="tap" type="button">Tap</button>
+      <button id="reset" class="secondary" type="button">Reset</button>
+    </section>
+    <p class="note">The result is an estimate based on the average interval between recent taps.</p>
+    <p><a href="https://quickbpmfinder.com/tap-tempo">Open the live browser tool</a></p>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
