@@ -1,0 +1,10 @@
+{
+  "name": "tap-tempo-bpm-counter",
+  "version": "1.0.0",
+  "description": "A dependency-free tap tempo engine and browser demo.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
